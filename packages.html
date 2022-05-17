@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+		<section class="sub-headerpack">
+			<nav>
+				<a href="index.html"><img src="images/logowhite.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="packages.html">PACKAGES</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<h1>PACKAGES</h1>
+
+		</section>
+
+		<!----- about us Packages---->
+
+		<section class="packages">
+			<h1>OUR PACKAGES</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			</p>
+
+			<div class="row">
+				<div class="pack-col">
+					    <img src="images/p1.jpg">
+						<h3>CAMPING</h3>
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</p>
+
+						<h4>$100</h4>
+				</div>
+
+				<div class="pack-col">
+						<img src="images/p2.jpg">
+						<h3>HIKING</h3>
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</p>
+
+						<h4>$150</h4>
+				</div>
+
+				<div class="pack-col">
+					    <img src="images/p3.jpg">
+						<h3>CICLING</h3>
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</p>
+
+						<h4>$200</h4>
+				</div>
+			</div>
+
+
+		
+		<!---momories---->
+		<section class="landscapes">
+			<h1>MEMORIES</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			</p>
+
+			<div class="row">
+				<div class="land-col">
+					<img src="images/1.jpg">
+					<div class="layer">
+						<h3>NARANGALA</h3>
+					</div>
+				</div>
+
+				<div class="land-col">
+					<img src="images/2.jpg">
+					<div class="layer">
+						<h3>HANTHANA</h3>
+					</div>
+				</div>
+
+				<div class="land-col">
+					<img src="images/3.jpg">
+					<div class="layer">
+						<h3>SERA ELLA</h3>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="land-col">
+					<img src="images/4.jpg">
+					<div class="layer">
+						<h3>RIVERSTEN</h3>
+					</div>
+				</div>
+
+				<div class="land-col">
+					<img src="images/5.jpg">
+					<div class="layer">
+						<h3>IDALGASHINNA</h3>
+					</div>
+				</div>
+
+				<div class="land-col">
+					<img src="images/6.jpg">
+					<div class="layer">
+						<h3>PIDURANGALA</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!----footer ---->
+
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod quis nostrud <br>exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-linkedin"></i>
+			</div>
+			<p>Made by Darshana Thamara  <i class="fa fa-heart-o"></i> </p>
+		</section>
+
+
+<script>
+	var navLinks = document.getElementById("navLinks")
+
+	function showMenu() {
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu() {
+		navLinks.style.right = "-300px";
+	}
+
+</script>
+</body>
+</html>
